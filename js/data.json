@@ -1,0 +1,217 @@
+[
+  {
+    "name": "JavaScript",
+    "level": "easy",
+    "time": 200,
+    "qNumber": 7,
+    "questions": [
+      {
+        "text": "Which company developed JavaScript?",
+        "choices": ["Microsoft", "Netscape", "Google", "Oracle"],
+        "answer": 1
+      },
+      {
+        "text": "What keyword is used to declare a constant variable?",
+        "choices": ["let", "const", "var", "static"],
+        "answer": 1
+      },
+      {
+        "text": "Which method converts JSON text to a JavaScript object?",
+        "choices": ["JSON.parse()", "JSON.stringify()", "parse.JSON()", "objectify()"],
+        "answer": 0
+      },
+      {
+        "text": "What is the output of typeof null?",
+        "choices": ["null", "object", "undefined", "boolean"],
+        "answer": 1
+      },
+      {
+        "text": "Which of the following is NOT a JavaScript framework?",
+        "choices": ["React", "Angular", "Vue", "Django"],
+        "answer": 3
+      },
+      {
+        "text": "Which symbol is used for single-line comments in JavaScript?",
+        "choices": ["//", "/*", "#", "--"],
+        "answer": 0
+      },
+      {
+        "text": "Which function is used to print something to the console?",
+        "choices": ["console.log()", "print()", "echo()", "log.console()"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "name": "Python",
+    "level": "easy",
+    "time": 200,
+    "qNumber": 7,
+    "questions": [
+      {
+        "text": "Who developed the Python programming language?",
+        "choices": ["Guido van Rossum", "Dennis Ritchie", "Bjarne Stroustrup", "James Gosling"],
+        "answer": 0
+      },
+      {
+        "text": "Which keyword is used to define a function in Python?",
+        "choices": ["func", "def", "function", "define"],
+        "answer": 1
+      },
+      {
+        "text": "Which of the following data types is immutable?",
+        "choices": ["List", "Dictionary", "Set", "Tuple"],
+        "answer": 3
+      },
+      {
+        "text": "What is the output of len('Python')?",
+        "choices": ["5", "6", "7", "Error"],
+        "answer": 1
+      },
+      {
+        "text": "Which operator is used for exponentiation in Python?",
+        "choices": ["^", "**", "exp()", "pow"],
+        "answer": 1
+      },
+      {
+        "text": "What will 'Hello' + 'World' output?",
+        "choices": ["Hello World", "HelloWorld", "Error", "Hello+World"],
+        "answer": 1
+      },
+      {
+        "text": "What is the correct file extension for Python files?",
+        "choices": [".py", ".pyt", ".pt", ".python"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "name": "Kotlin",
+    "level": "medium",
+    "time": 250,
+    "qNumber": 7,
+    "questions": [
+      {
+        "text": "Which company created Kotlin?",
+        "choices": ["JetBrains", "Google", "Microsoft", "Apple"],
+        "answer": 0
+      },
+      {
+        "text": "Kotlin is officially supported for which platform?",
+        "choices": ["iOS", "Android", "Windows", "Linux"],
+        "answer": 1
+      },
+      {
+        "text": "What keyword is used to declare an immutable variable in Kotlin?",
+        "choices": ["let", "val", "var", "const"],
+        "answer": 1
+      },
+      {
+        "text": "Which file extension is used for Kotlin source files?",
+        "choices": [".kt", ".java", ".kot", ".kotlin"],
+        "answer": 0
+      },
+      {
+        "text": "Which function is the entry point of a Kotlin program?",
+        "choices": ["start()", "begin()", "main()", "init()"],
+        "answer": 2
+      },
+      {
+        "text": "What is the supertype of all classes in Kotlin?",
+        "choices": ["Object", "Any", "Base", "Root"],
+        "answer": 1
+      },
+      {
+        "text": "Which keyword is used to create a class in Kotlin?",
+        "choices": ["define", "create", "class", "struct"],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "name": "HTML & CSS",
+    "level": "easy",
+    "time": 180,
+    "qNumber": 7,
+    "questions": [
+      {
+        "text": "What does HTML stand for?",
+        "choices": ["Hyper Text Markup Language", "Hyperlink Text Management Language", "Home Tool Markup Language", "Hyper Transfer Machine Language"],
+        "answer": 0
+      },
+      {
+        "text": "What is the correct HTML tag for the largest heading?",
+        "choices": ["<heading>", "<h6>", "<h1>", "<head>"],
+        "answer": 2
+      },
+      {
+        "text": "Which HTML tag is used to create a hyperlink?",
+        "choices": ["<a>", "<link>", "<href>", "<url>"],
+        "answer": 0
+      },
+      {
+        "text": "Which CSS property changes text color?",
+        "choices": ["color", "font-color", "text-color", "background-color"],
+        "answer": 0
+      },
+      {
+        "text": "How do you insert a comment in CSS?",
+        "choices": ["// comment", "<!-- comment -->", "/* comment */", "# comment"],
+        "answer": 2
+      },
+      {
+        "text": "Which CSS property controls the size of text?",
+        "choices": ["font-size", "text-style", "font-weight", "text-size"],
+        "answer": 0
+      },
+      {
+        "text": "Which tag is used to define an image in HTML?",
+        "choices": ["<image>", "<pic>", "<img>", "<photo>"],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "name": "SQL",
+    "level": "medium",
+    "time": 250,
+    "qNumber": 7,
+    "questions": [
+      {
+        "text": "What does SQL stand for?",
+        "choices": ["Structured Query Language", "Strong Question Language", "Sequential Query Language", "Structured Question List"],
+        "answer": 0
+      },
+      {
+        "text": "Which SQL statement is used to extract data from a database?",
+        "choices": ["GET", "OPEN", "SELECT", "EXTRACT"],
+        "answer": 2
+      },
+      {
+        "text": "Which clause is used to filter records in SQL?",
+        "choices": ["WHERE", "HAVING", "FILTER", "SELECT"],
+        "answer": 0
+      },
+      {
+        "text": "Which SQL statement is used to insert data into a table?",
+        "choices": ["ADD INTO", "INSERT INTO", "UPDATE", "APPEND"],
+        "answer": 1
+      },
+      {
+        "text": "What is the default sorting order of ORDER BY?",
+        "choices": ["Descending", "Random", "Ascending", "Alphabetical"],
+        "answer": 2
+      },
+      {
+        "text": "Which command deletes all rows from a table without deleting the table itself?",
+        "choices": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+        "answer": 3
+      },
+      {
+        "text": "Which SQL keyword is used to combine results from two queries?",
+        "choices": ["JOIN", "UNION", "MERGE", "CONNECT"],
+        "answer": 1
+      }
+    ]
+  }
+]
